@@ -44,7 +44,7 @@
 
     /* banner is ends here  */
 
-    .we-are-gamer{
+    .we-are-gamer {
         flex-direction: column;
         padding: 20px;
     }
@@ -65,58 +65,59 @@
         padding: 20px;
     }
 
-    .content{
-        height: 85%;
+    .content-1, .content-2, .content-3, .content-4 {
+        height: 100%;
     }
+    
 
     /* funny video ends here  */
 
-    .play-instantly-container{
-        flex-direction: column;   
-        padding: 20px;     
-    } 
+    .play-instantly-container {
+        flex-direction: column;
+        padding: 20px;
+    }
 
-    .play-instantly-text{
+    .play-instantly-text {
         width: 100%;
         text-align: center;
     }
 
-    .play-instantly-text > p{
+    .play-instantly-text>p {
         text-align: center;
     }
 
-    .play-instantly-img{
+    .play-instantly-img {
         width: 60%;
     }
 
     /* play instantly ends here  */
 
-    .play-instantly-container-2{
-        flex-direction: column;   
-        padding: 20px;     
-    } 
+    .play-instantly-container-2 {
+        flex-direction: column;
+        padding: 20px;
+    }
 
-    .play-instantly-text-2{
+    .play-instantly-text-2 {
         width: 100%;
         text-align: center;
     }
 
-    .play-instantly-text-2 > p{
+    .play-instantly-text-2>p {
         text-align: center;
     }
 
-    .play-instantly-img-2{
+    .play-instantly-img-2 {
         width: 60%;
     }
 
     /* play instantly 2 section ends here  */
 
-    .career-container{
+    .career-container {
         flex-direction: column;
         padding: 50px 20px
     }
 
-    .career-text {        
+    .career-text {
         width: 100%;
         padding: 50px 20px;
     }
@@ -132,21 +133,26 @@
 
     /* career container ends here  */
 
-    .footer-container{
+    .icon-container{
         padding: 20px;
     }
 
-    .footer-game-title > img{
+    /* icon container ends here  */
+    .footer-container {
+        padding: 20px;
+    }
+
+    .footer-game-title>img {
         width: 12%;
     }
 
-    .text-link{
+    .text-link {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding-top: 50px;
     }
 
-    .icon-link{
+    .icon-link {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         justify-items: center;
@@ -154,14 +160,14 @@
 
     }
 
-    .terms-container{
+    .terms-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         padding-top: 50px;
     }
 
-    .footer-container > P{
+    .footer-container>P {
         padding-top: 50px;
 
     }
@@ -202,7 +208,7 @@
     }
 
     .nav-items-container {
-        gap: 20px;
+        gap: 12px;
     }
 
     .nav-items-container>a {
@@ -211,6 +217,15 @@
 
     .follow-us {
         padding: 7px 10px;
+        gap: 12px;
+    }
+
+    .follow-us>p {
+        font-size: 12px;
+    }
+
+    .follow-us>img {
+        width: 15%;
     }
 
     /* nav is ends here  */
@@ -230,80 +245,195 @@
     }
 
     .banner-text-container>h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .banner-text-container>.goat {
-        font-size: 70px;
+        font-size: 60px;
     }
 
     .banner-p>p {
-        font-size: 15px;
+        font-size: 12px;
         padding-bottom: 0px;
     }
 
     .banner-btn>button {
         padding: 10px 20px;
-        margin-top: 10px;
+        margin-top: 15px;
+        font-size: 12px;
     }
 
     .banner-img {
         width: 100%;
     }
 
+    /* banner is ends here  */
+
+    .we-are-gamer {
+        margin: 40px auto;
+    }
+
+    .we-are-gamer-text>h1 {
+        font-size: 35px;
+    }
+
+    .we-are-gamer-text>p {
+        font-size: 12px;
+    }
+
+    .we-are-gamer-text>button {
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+
+    .we-are-gamer-text>p>span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
     /* we are gamer is ends here  */
+
+    .funny-videos-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .funny-videos-container>h1,
+    .funny-videos-container>h1>span {
+        font-size: 35px;
+    }
+
+    .funny-videos-container>P {
+        font-size: 12px;
+        padding-top: 10px;
+    }
 
     .funny-videos {
         grid-template-columns: 1fr;
     }
 
-    .content{
-        height: 90%;
+    .video-container>h4 {
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    .content-1 {
+        height: 100%;
+    }
+
+    .content-2 {
+        height: 100%;
+    }
+
+    .content-3 {
+        height: 100%;
+    }
+
+    .content-4 {
+        height: 100%;
     }
 
 
-    /* content section ends here  */
+    /* funny video content section ends here  */
 
-    .icon-container{
+    .play-instantly-container {
+        margin-top: 50px;
+    }
+
+    .play-instantly-text>p {
+        font-size: 12px;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+
+    .play-instantly-text>h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    /* play-instantly-container  end here  */
+    .play-instantly-container-2 {
+        margin-top: 50px;
+    }
+
+    .play-instantly-text-2>p {
+        font-size: 12px;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+
+    .play-instantly-text-2>h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+
+    /* play instantly container 2 ends here  */
+
+
+    .career-text>h1 {
+        font-size: 35px;
+        line-height: 25px;
+    }
+    .first > p, .second>p, .third>p{
+        font-size: 11px;
+        line-height: 25px;
+    }
+
+    .career-text>button {
+        margin-top: 25px;
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    /* career container ends here  */
+
+
+    .icon-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: 0px 20px;
         gap: 5px;
     }
 
-    .single-icon{
+    .single-icon {
         padding: 0px 0px;
     }
 
+    .single-icon:hover{
+        padding: 5px 10px;
+    }
+
     .single-icon>h4 {
-        font-size: 10px;
+        font-size: 7px;
     }
 
 
     /* career container ends here  */
+    .footer-game-title>h1{
+        font-size: 30px;
+    }
 
-
-    .footer-game-title > img{
+    .footer-game-title>img {
         width: 12%;
     }
 
-    .text-link{
+    .text-link {
         font-size: 12px;
     }
 
-    .icon-link > img{
-        width: 50%;
+    .icon-link> a >img {
+        width: 80%;
     }
 
-    .icon-link{
+    .icon-link {
         padding-top: 30px;
     }
 
-    .terms-container{
-       font-size: 12px;
+    .terms-container {
+        font-size: 12px;
     }
 
-    .footer-container > P{
+    .footer-container>P {
         padding-top: 50px;
         font-size: 10px;
 
